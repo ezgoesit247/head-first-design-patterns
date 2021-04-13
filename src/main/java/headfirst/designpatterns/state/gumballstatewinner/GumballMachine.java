@@ -24,15 +24,15 @@ public class GumballMachine {
 		} 
 	}
  
-	public void insertQuarter() {
+	public void insert() {
 		state.insert();
 	}
  
-	public void ejectQuarter() {
+	public void eject() {
 		state.eject();
 	}
  
-	public void turnCrank() {
+	public void turn() {
 		state.turn();
 		state.dispense();
 	}
